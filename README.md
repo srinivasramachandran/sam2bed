@@ -11,3 +11,8 @@ perl bedpe2bed.pl <BEDPE_FILE> > <BED_FILE>
 
 The BED_FILE from above will have the fragment start and end from paired end read pair. 
 We limit fragment size to less than 700 to throw out unexpected fragments from MNase experiments.
+
+
+EXAMPLE:
+
+perl bedpe2bed.pl test.bedpe > test_pe.bed
